@@ -1,6 +1,6 @@
 #include <substrate.h>
 #import <UIKit/UIKit.h>
 
-@interface SBMainSwitcherViewController : UIViewController <MBProgressHUDDelegate>
+@interface SBOrientationLockManager
 - (_Bool)isUserLocked;
 @end
