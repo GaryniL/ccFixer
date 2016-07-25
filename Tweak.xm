@@ -1,6 +1,5 @@
 #include <substrate.h>
 #import <UIKit/UIKit.h>
-#import "Tweak.h"
 
 @interface SBOrientationLockManager
 - (_Bool)isUserLocked;
@@ -17,4 +16,3 @@
     return %orig();
 }
 %end
-
